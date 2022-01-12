@@ -1,7 +1,7 @@
 ## Mlflow Tracking, Experiments, Model, and Projects Tutorial
 
 This tutorial was created and tested on macOS Monterey version 12.1 Macbook Pro, 2.2 GHz Quad-Core Intel Core i7, Memory 16GB DDR3
-Here is the ***installation instructions** using Conda environment
+Here is the **installation instructions** using Conda environment
 > 1. Make sure that you have the Conda environment installed. In my case, I had Conda 4.10.3 installed in MacOS version specified above
 > 2. Copy the github repo from the url below from the MacOS terminal where the contents will be saved in the directory called mlflow
   ```
