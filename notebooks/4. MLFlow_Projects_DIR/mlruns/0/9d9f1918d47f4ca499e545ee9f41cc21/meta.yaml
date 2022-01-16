@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brandonl/projects/mlflow/fastcamp/notebooks/4.projects/mlruns/0/9d9f1918d47f4ca499e545ee9f41cc21/artifacts
+end_time: 1641352104742
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 9d9f1918d47f4ca499e545ee9f41cc21
+run_uuid: 9d9f1918d47f4ca499e545ee9f41cc21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1641352101648
+status: 3
+tags: []
+user_id: brandonl

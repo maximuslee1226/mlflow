@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/7/eaeba20cd7a743e09b428c8dd2251750/artifacts
+end_time: 1641794583958
+entry_point_name: ''
+experiment_id: '7'
+lifecycle_stage: active
+name: ''
+run_id: eaeba20cd7a743e09b428c8dd2251750
+run_uuid: eaeba20cd7a743e09b428c8dd2251750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1641794583862
+status: 4
+tags: []
+user_id: brandonl
