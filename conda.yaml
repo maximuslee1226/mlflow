@@ -1,4 +1,4 @@
-lname: mlflowtest
+name: mlflowtest
 channels: 
   - defaults
   - pytorch
@@ -11,8 +11,7 @@ dependencies:
   - scikit-learn=0.21.3
   - matplotlib=3.1.2
   - mlflow=1.4.0
-  = torch=1.3.1
+  - pytorch=1.3.1
   - pytorch-cpu=1.1.0
   - torchvision=0.4.2
-  - xgboost==0.90
-
+  - xgboost==0.90 #you can use 1.5.0 when running this in windows10, for Mac, 1.5.0 wasn't tested
