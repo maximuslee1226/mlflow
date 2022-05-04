@@ -1,6 +1,17 @@
 ## Mlflow Tracking, Experiments, Model, and Projects Tutorial
 
-This tutorial was created and tested on macOS Monterey version 12.1 Macbook Pro, 2.2 GHz Quad-Core Intel Core i7, Memory 16GB DDR3
+This tutorial was created and tested on the following: 
+> 1. MacOS Monterey version 12.1 Macbook Pro, 2.2 GHz Quad-Core Intel Core i7, Memory 16GB DDR3
+
+            1.1 MLFlow version:  1.4.0 (Original Run)
+
+            1.2 Conda version:   4.10.3 (Original Run)
+  
+> 2. Windows 10 ThinkPad P15 Gen1 Intel i7 10850 @ 2.7GHz Memory 32GB DDR4
+  
+            2.1 MLFlow version:  1.25.1 (Second Run)
+
+            2.2 Conda version:   4.10.3 (Second Run)
 
 Here is the **installation instructions** using Conda environment
 > 1. Make sure that you have the Conda environment installed. In my case, I had Conda 4.10.3 installed in MacOS version specified above
@@ -14,15 +25,25 @@ Here is the **installation instructions** using Conda environment
   ```
 > 4. Activate Conda virtual environment called mlflowtest
   ```
-  $ conda activate -f mlflow test
+  $ conda activate mlflowtest
   ```
-> 5. Launch MLFlow server from the conda environment by typing
+> 5. Install mlflow libraries
+  ```
+  $ (MAC) pip install mlflow==1.4.0
+  $ (WINDOWS) pip install mlflow==1.25.1
+  ```
+> (For MLFLOW version 1.25.1 in WINDOWS 10 ONLY) 
+> (OPTIONAL) 6. Upgrade mlflow db
+  ```
+  $ mlflow db upgrade sqlite:///[PATH-TO-MLFLOW]/backend/mlflow_data.db
+  ``` 
+> 7. Launch MLFlow server from the conda environment by typing
   ```
   $ mlflow server --backend-store-uri="sqlite:///[path-to-mlflow]/backend/mlflow_data.db" \
                   --default-artifact-root="file://[path-to-mlflow]/artifact_store"
   ```
-  ***Note: make sure that you have four slashes after sqlite***
-> 6. Launch Jupyter notebook from the conda environment by typing
+  ***Note: make sure that you have three slashes after sqlite***
+> 8. Launch Jupyter notebook from the conda environment by typing
   ```
   $ jupyter notebook
   ```
