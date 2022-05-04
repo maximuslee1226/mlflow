@@ -18,7 +18,7 @@ Here is the **installation instructions** using Conda environment
   ```
 > 5. Launch MLFlow server from the conda environment by typing
   ```
-  $ mlflow server --backend-store uri="sqlite:///[path-to-mlflow]/backend/mlflow_data.db" \
+  $ mlflow server --backend-store-uri="sqlite:///[path-to-mlflow]/backend/mlflow_data.db" \
                   --default-artifact-root="file://[path-to-mlflow]/artifact_store"
   ```
   ***Note: make sure that you have four slashes after sqlite***
